@@ -1,0 +1,19 @@
+{
+  "name": "mdparser",
+  "version": "1.0.0",
+  "description": "markdown 을 json 형식으로 파싱한다. 커스터마이징을 위해 처음부터 직접 구현해본다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIL-EDITOR/mdParser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TIL-EDITOR/mdParser/issues"
+  },
+  "homepage": "https://github.com/TIL-EDITOR/mdParser#readme"
+}
