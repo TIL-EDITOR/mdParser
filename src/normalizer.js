@@ -11,11 +11,11 @@
     this line is new paragraph\
     this line is new paragraph too\
  */
-// \n -> !
 const regex = /(\n){2,}/g
-// regex.match
 
-exports.normalize = function (data) {
-  const normalized_str=data.replaceAll(regex,"\n")
-  return normalized_str
-}
+export default {
+  normalize(data) {
+    const normalized_str = data.replaceAll(regex, "\n");
+    return normalized_str;
+  },
+};

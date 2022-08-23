@@ -1,9 +1,9 @@
 // 2. md 파일을 각 rule 대로 토큰화한다.
 // 토큰화 기법 - 겹친 문제...
 
-const validator = require("./normalizedValidator"); // 우리가 만들거임
+import validator from './normalizedValidator.js'
 
-exports.tokenizer = {
+export default {
   tokenize(normalizedData) {
     // 1. normalized validator
     if (!validator.validate(normalizedData)) {

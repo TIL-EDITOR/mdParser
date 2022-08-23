@@ -1,3 +1,7 @@
-module.exports = normalizationRule = {
+const normalizationRule = {
   newline:/(\n){2,}/g
+}
+
+export {
+  normalizationRule,
 }
